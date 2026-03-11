@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         quizRoot.innerHTML = `
             <div class="quiz-step active">
                 <h2>Thank You!</h2>
-                <p>We've received your information. A specialist from Black Oaks Land Clearing will reach out to you within 24 hours.</p>
+                <p>We've received your information. A specialist from The Great Awaken Marketing Firm will reach out to you within 24 hours.</p>
             </div>
         `;
     }

@@ -74,6 +74,22 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--grey);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: var(--gold);
+    transition: width 0.4s ease;
 }
 
 .quiz-step h2 {

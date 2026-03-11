@@ -38,6 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderStep(stepNum) {
         const step = steps[stepNum];
+        
+        // Update progress bar
+        const progress = (stepNum / totalSteps) * 100;
+        const progressEl = document.getElementById('quiz-progress');
+        if (progressEl) progressEl.style.width = `${progress}%`;
+
         let html = `<div id="quiz-step-${stepNum}" class="quiz-step active">
             <h2>${step.title}</h2>`;
 
@@ -105,6 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         console.log("Final Lead Data Collected:", leadData);
         
+        const progressBar = document.querySelector('.progress-bar');
+        if (progressBar) progressBar.style.display = 'none';
+
         quizRoot.innerHTML = `
             <div class="quiz-step active">
                 <h2>Thank You!</h2>

@@ -66,6 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         <label>Phone Number</label>
                         <input type="tel" name="phone" required placeholder="Enter your phone number">
                     </div>
+                    <div class="form-group sms-consent">
+                        <label class="checkbox-container">
+                            <input type="checkbox" name="sms_consent">
+                            <span class="checkbox-text">By providing your phone number, you agree to receive text messages from The Great Awaken Marketing Firm for marketing and promotional purposes. Message and data rates may apply. Message frequency varies. Reply STOP to opt-out at any time.</span>
+                        </label>
+                    </div>
                     <button type="submit" class="submit-btn">Get My Results</button>
                 </form>
             `;

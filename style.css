@@ -160,6 +160,50 @@ body {
     text-transform: uppercase;
 }
 
+/* SMS Consent Styles */
+.sms-consent {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.sms-consent .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    font-weight: 400;
+    gap: 10px;
+}
+
+.sms-consent input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    cursor: pointer;
+    accent-color: var(--gold);
+}
+
+.checkbox-text {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+    text-align: left;
+}
+
+/* Footer Links */
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    color: var(--gold);
+}
+
 /* Footer */
 .footer {
     padding: 60px 0;

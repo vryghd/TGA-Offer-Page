@@ -4,7 +4,7 @@ This project is a high-ticket contractor lead generation page for **The Great Aw
 
 ## Project Specifications
 - **Brand:** The Great Awaken Marketing Firm (TGA)
-- **URL:** https://offers.thegreatawake.com
+- **URL:** https://offers.thegreatawaken.com
 - **Target Niche:** Land Clearing, Excavation, Forestry Mulching (and other high-ticket contractors)
 - **Aesthetic:** Gold and Navy (TGAMA-Project standard)
   - Gold: `#d4af37`

@@ -23,6 +23,18 @@ body {
     line-height: 1.6;
 }
 
+/* Logo Header */
+.logo-header {
+    background-color: var(--navy);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-logo {
+    max-width: 200px;
+    height: auto;
+}
+
 .container {
     max-width: var(--container-width);
     margin: 0 auto;

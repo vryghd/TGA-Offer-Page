@@ -4,17 +4,20 @@ This project is a high-ticket contractor lead generation page for **The Great Aw
 
 ## Project Specifications
 - **Brand:** The Great Awaken Marketing Firm (TGA)
+- **URL:** https://offers.thegreatawake.com
 - **Target Niche:** Land Clearing, Excavation, Forestry Mulching (and other high-ticket contractors)
 - **Aesthetic:** Gold and Navy (TGAMA-Project standard)
   - Gold: `#d4af37`
   - Navy: `#001f3f`
+- **Logo:** `LogoV2.png`
 - **Breakpoints:** 768px for mobile responsiveness
 - **Primary Goal:** Lead generation for TGA clients via a multi-step quiz funnel.
 
 ## Technical Details
-- `index.html`: Main landing page structure with TGA branding.
+- `index.html`: Main landing page structure with TGA branding and logo.
 - `style.css`: Custom styling using CSS variables for consistent branding across all TGA projects.
 - `script.js`: Dynamic quiz logic and form handling.
+- `LogoV2.png`: Project logo.
 - `base_site.html`: Legacy/reference crawl from Hardscape Contractors site used for architectural inspiration.
 
 ## Maintenance
